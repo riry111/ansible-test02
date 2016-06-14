@@ -1,0 +1,10 @@
+- name: ansible-test02
+  hosts: all
+ 
+  tasks:
+ 
+  - name: hostname
+    shell: hostname
+
+  - name: date
+    shell: date
